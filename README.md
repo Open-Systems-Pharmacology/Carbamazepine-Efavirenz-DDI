@@ -1,12 +1,14 @@
 # Carbamazepine-Efavirenz-DDI
 Modeling of published clinical Carbamazepine-Efavirenz DDI studies for model evaluation
 
-Within this repository, we distribute a PK-Sim project file containing simulations of published clinical studies used to evaluate the predictive performance of our models regarding the Carbamazepine-Efavirenz DDI, including the respective observed data digitized from literature reports. 
+The repository contains a [PK-Sim snapshot (*.json) file](https://docs.open-systems-pharmacology.org/working-with-pk-sim/pk-sim-documentation/importing-exporting-project-data-models#exporting-project-to-snapshot-loading-project-from-snapshot) containing the respective simulations.
+
+**The latest release of the snapshot can be found [here](../../releases/latest).**
 
 The reference model repositories can be found here:
 
-- [Efavirenz PBPK model](https://github.com/Open-Systems-Pharmacology/Efavirenz-Model)
-- [Carbamazepine PBPK model](https://github.com/Open-Systems-Pharmacology/Carbamazepine-Model)
+- [Carbamazepine OSP PBPK model](https://github.com/Open-Systems-Pharmacology/Carbamazepine-Model)
+- [Efavirenz OSP PBPK model](https://github.com/Open-Systems-Pharmacology/Efavirenz-Model)
 
 ## Code of conduct
 
@@ -18,4 +20,4 @@ We encourage contribution to the Open Systems Pharmacology community. Before get
 
 ## License
 
-The model is distributed under the [GPLv2 Lincense](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE).
+The model code is distributed under the [GPLv2 License](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE).
