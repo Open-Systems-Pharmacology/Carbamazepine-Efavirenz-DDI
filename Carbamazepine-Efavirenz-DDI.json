@@ -1,72 +1,12 @@
 {
-  "Version": 78,
-  "Individuals": [
+  "Version": 79,
+  "ExpressionProfiles": [
     {
-      "Name": "Ji2008",
-      "Seed": 105030796,
-      "OriginData": {
-        "CalculationMethods": [
-          "SurfaceAreaPlsInt_VAR1",
-          "Body surface area - Mosteller"
-        ],
-        "Species": "Human",
-        "Population": "European_ICRP_2002",
-        "Gender": "MALE",
-        "Age": {
-          "Value": 30.0,
-          "Unit": "year(s)"
-        },
-        "Weight": {
-          "Value": 75.5,
-          "Unit": "kg"
-        }
-      },
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "Ji2008",
       "Parameters": [
-        {
-          "Path": "CYP1A2|Reference concentration",
-          "Value": 1.8,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP1A2|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP1A2|t1/2 (liver)",
-          "Value": 39.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2A6|Reference concentration",
-          "Value": 2.72,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP2A6|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2A6|t1/2 (liver)",
-          "Value": 26.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2B6|Reference concentration",
-          "Value": 1.56,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP2B6|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2B6|t1/2 (liver)",
-          "Value": 32.0,
-          "Unit": "h"
-        },
         {
           "Path": "CYP3A4|Reference concentration",
           "Value": 4.32,
@@ -86,6 +26,113 @@
           }
         },
         {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP1A2",
+      "Category": "Ji2008",
+      "Parameters": [
+        {
+          "Path": "CYP1A2|Reference concentration",
+          "Value": 1.8,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (liver)",
+          "Value": 39.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP1A2|Relative expression",
+          "Value": 0.00029559748428
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
+          "Value": 4.4025157233E-06
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
+          "Value": 2.4947589099E-05
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP1A2"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A5",
+      "Category": "Ji2008",
+      "Parameters": [
+        {
           "Path": "CYP3A5|Reference concentration",
           "Value": 0.04,
           "Unit": "µmol/l"
@@ -101,52 +148,176 @@
           "Unit": "h"
         },
         {
+          "Path": "Organism|Brain|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.0041810344828
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.1681034483
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A5|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A5|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.1620689655
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP3A5"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2A6",
+      "Category": "Ji2008",
+      "Parameters": [
+        {
+          "Path": "CYP2A6|Reference concentration",
+          "Value": 2.72,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2A6|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2A6|t1/2 (liver)",
+          "Value": 26.0,
+          "Unit": "h"
+        },
+        {
           "Path": "Organism|Brain|Intracellular|CYP2A6|Relative expression",
           "Value": 0.00052810287531
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2A6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2A6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2A6|Relative expression",
+          "Value": 0.0051148677937
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2B6",
+      "Category": "Ji2008",
+      "Parameters": [
+        {
+          "Path": "CYP2B6|Reference concentration",
+          "Value": 1.56,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2B6|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2B6|t1/2 (liver)",
+          "Value": 32.0,
+          "Unit": "h"
         },
         {
           "Path": "Organism|Brain|Intracellular|CYP2B6|Relative expression",
           "Value": 0.0021211129296
         },
         {
-          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.0041810344828
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP1A2|Relative expression",
-          "Value": 0.00029559748428
-        },
-        {
           "Path": "Organism|Gonads|Intracellular|CYP2B6|Relative expression",
           "Value": 0.0063502454992
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.00094468085106
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
-          "Value": 4.4025157233E-06
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP2B6|Relative expression",
           "Value": 0.1043535188
         },
         {
-          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2B6|Relative expression",
+          "Value": 1.0
         },
         {
-          "Path": "Organism|Kidney|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.1681034483
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2B6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.5970540098
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "UGT2B7",
+      "Category": "Ji2008",
+      "Parameters": [
+        {
+          "Path": "Organism|Gonads|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.00094468085106
         },
         {
           "Path": "Organism|LargeIntestine|Intracellular|UGT2B7|Relative expression",
@@ -169,54 +340,7 @@
           "Value": 0.0049787234043
         },
         {
-          "Path": "Organism|Liver|EHC continuous fraction",
-          "Value": 1.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP1A2|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2A6|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2B6|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A5|Relative expression",
-          "Value": 1.0
-        },
-        {
           "Path": "Organism|Liver|Pericentral|Intracellular|UGT2B7|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP1A2|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP2A6|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP2B6|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A5|Relative expression",
           "Value": 1.0
         },
         {
@@ -224,120 +348,28 @@
           "Value": 1.0
         },
         {
-          "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
-          "Value": 2.4947589099E-05
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP2A6|Relative expression",
-          "Value": 0.0051148677937
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.5970540098
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.1620689655
-        },
-        {
           "Path": "Organism|Pancreas|Intracellular|UGT2B7|Relative expression",
           "Value": 0.0354468085
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|UGT2B7|Relative expression",
           "Value": 0.5361702128
         },
         {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|UGT2B7|Relative expression",
           "Value": 0.5361702128
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|UGT2B7|Relative expression",
           "Value": 0.5361702128
         },
         {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|UGT2B7|Relative expression",
           "Value": 0.5361702128
         },
         {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|UGT2B7|Relative expression",
           "Value": 0.5361702128
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|UGT2B7|Relative expression",
@@ -362,49 +394,49 @@
           "Unit": "h"
         }
       ],
-      "Molecules": [
-        {
-          "Name": "CYP3A4",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP3A4"
-          }
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "UGT2B7"
+      }
+    }
+  ],
+  "Individuals": [
+    {
+      "Name": "Ji2008",
+      "Seed": 105030796,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
         },
+        "Weight": {
+          "Value": 75.5,
+          "Unit": "kg"
+        }
+      },
+      "Parameters": [
         {
-          "Name": "CYP1A2",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP1A2"
-          }
-        },
-        {
-          "Name": "CYP3A5",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP3A5"
-          }
-        },
-        {
-          "Name": "CYP2A6",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
-        },
-        {
-          "Name": "CYP2B6",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
-        },
-        {
-          "Name": "UGT2B7",
-          "Type": "Enzyme",
-          "Localization": "Intracellular",
-          "Ontogeny": {
-            "Name": "UGT2B7"
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
           }
         }
+      ],
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Ji2008",
+        "CYP1A2|Human|Ji2008",
+        "CYP3A5|Human|Ji2008",
+        "CYP2A6|Human|Ji2008",
+        "CYP2B6|Human|Ji2008",
+        "UGT2B7|Human|Ji2008"
       ]
     }
   ],
@@ -1132,169 +1164,6 @@
   ],
   "Protocols": [
     {
-      "Name": "Ji2008 - Arm2_TreatmentPhase_Carbamazepine",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 200.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 3.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Schema 2",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 200.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 60.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 6.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 12.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Schema 3",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 400.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 144.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 29.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
       "Name": "Ji2008 - Arm1_TreatmentPhase_Efavirenz",
       "DosingInterval": "Single",
       "Schemas": [
@@ -1474,219 +1343,6 @@
               "Name": "TimeBetweenRepetitions",
               "Value": 24.0,
               "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "Ji2008 - Arm2_TreatmentPhase_Efavirenz",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 600.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 504.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 14.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "Ji2008 - Arm2_ControlPhase_Carbamazepine",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 200.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 3.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Schema 2",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 200.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 60.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 6.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 12.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Schema 3",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 400.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 144.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 15.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
             }
           ]
         }
@@ -1926,6 +1582,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Ji2008_Arm1_ControlPhase|Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Ji 2008 - Efavirenz, control (Arm 1) - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)"
+        }
+      ],
       "Individual": "Ji2008",
       "Compounds": [
         {
@@ -2033,7 +1696,18 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Ji2008_Arm1_ControlPhase",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
           "Settings": {
             "SideMarginsEnabled": true,
             "LegendPosition": "RightInside",
@@ -2463,6 +2137,13 @@
         "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Ji2008_Arm1_TreatmentPhase|Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Ji 2008 - Efavirenz + Carbamazepine, treatment (Arm 1) - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)"
+        }
+      ],
       "Individual": "Ji2008",
       "Compounds": [
         {
@@ -2619,7 +2300,18 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Ji2008_Arm1_TreatmentPhase",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
           "Settings": {
             "SideMarginsEnabled": true,
             "LegendPosition": "RightInside",
@@ -2627,935 +2319,6 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Carbamazepine-Efavirenz-DDI\nJi2008_Arm1_TreatmentPhase\n2022-05-05 17:41"
-        }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Shou2008",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP2B6-Ke2016",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP3A4-DMPK",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Carbamazepine"
-        },
-        {
-          "Name": "CYP2B6-Faucette2004",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Carbamazepine"
-        }
-      ]
-    },
-    {
-      "Name": "Ji2008_Arm2_ControlPhase",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Ji 2008 - Carbamazepine, control (Arm 2) - Carbamazepine - PO - 200 / 400 mg - Plasma - agg. (n=36)"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 8.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 480.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 480.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 482.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 482.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 504.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_18|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_19|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_20|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_21|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_22|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_23|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_24|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)"
-      ],
-      "Individual": "Ji2008",
-      "Compounds": [
-        {
-          "Name": "Carbamazepine",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "IR tablet (FaHIF)",
-              "GroupName": "COMPOUND_SOLUBILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP3A4-Epoxidation_Sakamoto2013",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "MoleculeName": "CYP3A5"
-            },
-            {
-              "MoleculeName": "CYP2A6"
-            },
-            {
-              "Name": "CYP2B6-3-Hydroxylation_Pearce2002",
-              "MoleculeName": "CYP2B6"
-            },
-            {
-              "Name": "UGT2B7-N-Glucuronidation_Staines2004",
-              "MoleculeName": "UGT2B7"
-            },
-            {
-              "Name": "Glomerular Filtration-Glomerular Filtration",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Ji2008 - Arm2_ControlPhase_Carbamazepine",
-            "Formulations": [
-              {
-                "Name": "CBZ_tabletIR_fasted (Tegretol)",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 479.0,
-              "Max": 505.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "mg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0,
-              "Max": 10.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Ji2008_Arm2_ControlPhase-Carbamazepine-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Ji2008_Arm2_ControlPhase|Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Ji 2008 - Carbamazepine, control (Arm 2) - Carbamazepine - PO - 200 / 400 mg - Plasma - agg. (n=36)-Carbamazepine-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Ji 2008 - Carbamazepine, control (Arm 2) - Carbamazepine - PO - 200 / 400 mg - Plasma - agg. (n=36)|Time",
-              "Y": "Ji 2008 - Carbamazepine, control (Arm 2) - Carbamazepine - PO - 200 / 400 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Ji2008_100-200-400mg_md_tabIR",
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "None",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Carbamazepine-Efavirenz-DDI\nJi2008_Arm2_ControlPhase\n2022-05-05 17:44"
-        }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-DMPK",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Carbamazepine"
-        },
-        {
-          "Name": "CYP2B6-Faucette2004",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Carbamazepine"
-        }
-      ]
-    },
-    {
-      "Name": "Ji2008_Arm2_TreatmentPhase",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Ji 2008 - Carbamazepine + Efavirenz, treatment (Arm 2) - Carbamazepine - PO - 200 / 400 mg - Plasma - agg. (n=36)"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 8.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 816.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 816.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 818.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 818.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 840.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_18|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_19|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_20|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_21|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_22|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_23|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_24|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_25|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_26|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_27|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_28|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_29|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_30|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_31|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_32|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_33|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_34|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_35|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_36|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_37|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_38|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Efavirenz|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)"
-      ],
-      "Individual": "Ji2008",
-      "Compounds": [
-        {
-          "Name": "Efavirenz",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Schmitt",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP3A4-Ward2003",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "CYP1A2-Ward2003",
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "Name": "CYP3A5-Ward2003",
-              "MoleculeName": "CYP3A5"
-            },
-            {
-              "Name": "CYP2A6-Ogburn2010",
-              "MoleculeName": "CYP2A6"
-            },
-            {
-              "Name": "CYP2B6-Ward2003",
-              "MoleculeName": "CYP2B6"
-            },
-            {
-              "MoleculeName": "UGT2B7"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Ji2008 - Arm2_TreatmentPhase_Efavirenz",
-            "Formulations": [
-              {
-                "Name": "Sustiva",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
-        {
-          "Name": "Carbamazepine",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "IR tablet (FaHIF)",
-              "GroupName": "COMPOUND_SOLUBILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP3A4-Epoxidation_Sakamoto2013",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "CYP1A2"
-            },
-            {
-              "MoleculeName": "CYP3A5"
-            },
-            {
-              "MoleculeName": "CYP2A6"
-            },
-            {
-              "Name": "CYP2B6-3-Hydroxylation_Pearce2002",
-              "MoleculeName": "CYP2B6"
-            },
-            {
-              "Name": "UGT2B7-N-Glucuronidation_Staines2004",
-              "MoleculeName": "UGT2B7"
-            },
-            {
-              "Name": "Glomerular Filtration-Glomerular Filtration",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Ji2008 - Arm2_TreatmentPhase_Carbamazepine",
-            "Formulations": [
-              {
-                "Name": "CBZ_tabletIR_fasted (Tegretol)",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 815.0,
-              "Max": 841.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "mg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0,
-              "Max": 10.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Carbamazepine-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Ji2008_Arm2_TreatmentPhase|Organism|PeripheralVenousBlood|Carbamazepine|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2
-              }
-            },
-            {
-              "Name": "Ji 2008 - Carbamazepine + Efavirenz, treatment (Arm 2) - Carbamazepine - PO - 200 / 400 mg - Plasma - agg. (n=36)-Carbamazepine-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Ji 2008 - Carbamazepine + Efavirenz, treatment (Arm 2) - Carbamazepine - PO - 200 / 400 mg - Plasma - agg. (n=36)|Time",
-              "Y": "Ji 2008 - Carbamazepine + Efavirenz, treatment (Arm 2) - Carbamazepine - PO - 200 / 400 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Carbamazepine-Efavirenz-DDI\nJi2008_Arm2_TreatmentPhase\n2022-05-05 17:50"
         }
       ],
       "Interactions": [
@@ -3588,75 +2351,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 958.0
+          "Value": 958.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Ji 2008"
+          "Value": "Ji 2008",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/18519918/"
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/18519918/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1"
+          "Value": "Fig. 1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Efavirenz, control (Arm 1)"
+          "Value": "Efavirenz, control (Arm 1)",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 14.0
+          "Value": 14.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Efavirenz"
+          "Value": "Efavirenz",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "600 mg"
+          "Value": "600 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": "S0-T24-R14"
+          "Value": "S0-T24-R14",
+          "Type": "String"
         },
         {
           "Name": "Formulation",
-          "Value": "tablets of 600mg strength (Bristol-Myers Squibb Co, Princeton, New Jersey)"
+          "Value": "tablets of 600mg strength (Bristol-Myers Squibb Co, Princeton, New Jersey)",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -3666,13 +2447,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Ji 2008 - Efavirenz, control (Arm 1) - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 315.68
               },
               "Values": [
@@ -3694,13 +2473,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Ji 2008 - Efavirenz, control (Arm 1) - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 315.68,
             "LLOQ": 1E-07
           },
@@ -3725,14 +2502,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Ji 2008 - Efavirenz, control (Arm 1) - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           312.0,
@@ -3757,75 +2532,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 959.0
+          "Value": 959.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Ji 2008"
+          "Value": "Ji 2008",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/18519918/"
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/18519918/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1"
+          "Value": "Fig. 1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Efavirenz + Carbamazepine, treatment (Arm 1)"
+          "Value": "Efavirenz + Carbamazepine, treatment (Arm 1)",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 14.0
+          "Value": 14.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Efavirenz"
+          "Value": "Efavirenz",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "600 mg"
+          "Value": "600 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": "S0-T24-R35"
+          "Value": "S0-T24-R35",
+          "Type": "String"
         },
         {
           "Name": "Formulation",
-          "Value": "tablets of 600mg strength (Bristol-Myers Squibb Co, Princeton, New Jersey)"
+          "Value": "tablets of 600mg strength (Bristol-Myers Squibb Co, Princeton, New Jersey)",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -3835,13 +2628,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Ji 2008 - Efavirenz + Carbamazepine, treatment (Arm 1) - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 315.68
               },
               "Values": [
@@ -3863,13 +2654,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Ji 2008 - Efavirenz + Carbamazepine, treatment (Arm 1) - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Efavirenz|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 315.68,
             "LLOQ": 1E-07
           },
@@ -3894,690 +2683,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Ji 2008 - Efavirenz + Carbamazepine, treatment (Arm 1) - Efavirenz - PO - 600 mg - Plasma - agg. (n=14)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
-        },
-        "Values": [
-          816.0,
-          817.0,
-          818.0,
-          819.0,
-          820.0,
-          821.0,
-          822.0,
-          824.0,
-          826.0,
-          828.0,
-          832.0,
-          840.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Ji 2008 - Carbamazepine, control (Arm 2) - Carbamazepine - PO - 200 / 400 mg - Plasma - agg. (n=36)",
-      "ExtendedProperties": [
-        {
-          "Name": "DB Version",
-          "Value": "OSP DATABASE"
-        },
-        {
-          "Name": "ID",
-          "Value": 960.0
-        },
-        {
-          "Name": "Study Id",
-          "Value": "Ji 2008"
-        },
-        {
-          "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/18519918/"
-        },
-        {
-          "Name": "Source",
-          "Value": "Fig. 2A"
-        },
-        {
-          "Name": "Grouping",
-          "Value": "Carbamazepine, control (Arm 2)"
-        },
-        {
-          "Name": "Data type",
-          "Value": "aggregated"
-        },
-        {
-          "Name": "N",
-          "Value": 36.0
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Carbamazepine"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma"
-        },
-        {
-          "Name": "Route",
-          "Value": "PO"
-        },
-        {
-          "Name": "Dose",
-          "Value": "200 / 400 mg"
-        },
-        {
-          "Name": "Times of Administration [h]",
-          "Value": "200mg: S0-T24-R3, S60-T12-R6; 400mg: S144-T24-R15"
-        },
-        {
-          "Name": "Formulation",
-          "Value": "tablets of 200mg strength (Novartis Pharmaceuticals Co, East Hanover, New Jersey)"
-        },
-        {
-          "Name": "Food state",
-          "Value": "fasted"
-        },
-        {
-          "Name": "Comment",
-          "Value": "."
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Avg",
-          "RelatedColumns": [
-            {
-              "Name": "Var",
-              "QuantityInfo": {
-                "Name": "Var",
-                "Path": "Ji 2008 - Carbamazepine, control (Arm 2) - Carbamazepine - PO - 200 / 400 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine|ArithmeticStdDev"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
-                "MolWeight": 236.269
-              },
-              "Values": [
-                1.134218,
-                1.039701,
-                1.493438,
-                1.758064,
-                1.890338,
-                1.852556,
-                1.417748,
-                1.115289,
-                1.001918,
-                1.285448,
-                1.153147,
-                0.9451571
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "mg/l"
-            }
-          ],
-          "QuantityInfo": {
-            "Name": "Avg",
-            "Path": "Ji 2008 - Carbamazepine, control (Arm 2) - Carbamazepine - PO - 200 / 400 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine|ArithmeticMean"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
-            "MolWeight": 236.269,
-            "LLOQ": 5E-07
-          },
-          "Values": [
-            4.177679,
-            4.554937,
-            5.556042,
-            6.784015,
-            7.312554,
-            7.38738,
-            7.424398,
-            7.271592,
-            6.513869,
-            6.32328,
-            5.639544,
-            4.045353
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Name": "Time",
-          "Path": "Ji 2008 - Carbamazepine, control (Arm 2) - Carbamazepine - PO - 200 / 400 mg - Plasma - agg. (n=36)|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
-        },
-        "Values": [
-          480.0,
-          481.0,
-          482.0,
-          483.0,
-          484.0,
-          485.0,
-          486.0,
-          488.0,
-          490.0,
-          492.0,
-          496.0,
-          504.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Ji 2008 - Carbamazepine + Efavirenz, treatment (Arm 2) - Carbamazepine - PO - 200 / 400 mg - Plasma - agg. (n=36)",
-      "ExtendedProperties": [
-        {
-          "Name": "DB Version",
-          "Value": "OSP DATABASE"
-        },
-        {
-          "Name": "ID",
-          "Value": 961.0
-        },
-        {
-          "Name": "Study Id",
-          "Value": "Ji 2008"
-        },
-        {
-          "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/18519918/"
-        },
-        {
-          "Name": "Source",
-          "Value": "Fig. 2A"
-        },
-        {
-          "Name": "Grouping",
-          "Value": "Carbamazepine + Efavirenz, treatment (Arm 2)"
-        },
-        {
-          "Name": "Data type",
-          "Value": "aggregated"
-        },
-        {
-          "Name": "N",
-          "Value": 36.0
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Carbamazepine"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma"
-        },
-        {
-          "Name": "Route",
-          "Value": "PO"
-        },
-        {
-          "Name": "Dose",
-          "Value": "200 / 400 mg"
-        },
-        {
-          "Name": "Times of Administration [h]",
-          "Value": "200mg: S0-T24-R3, S60-T12-R6; 400mg: S144-T24-R29"
-        },
-        {
-          "Name": "Formulation",
-          "Value": "tablets of 200mg strength (Novartis Pharmaceuticals Co, East Hanover, New Jersey)"
-        },
-        {
-          "Name": "Food state",
-          "Value": "fasted"
-        },
-        {
-          "Name": "Comment",
-          "Value": "."
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Avg",
-          "RelatedColumns": [
-            {
-              "Name": "Var",
-              "QuantityInfo": {
-                "Name": "Var",
-                "Path": "Ji 2008 - Carbamazepine + Efavirenz, treatment (Arm 2) - Carbamazepine - PO - 200 / 400 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine|ArithmeticStdDev"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
-                "MolWeight": 236.269
-              },
-              "Values": [
-                0.8128562,
-                0.8506384,
-                1.247615,
-                1.228763,
-                0.982989848,
-                0.9263034,
-                0.9452071,
-                0.8506641,
-                0.737268,
-                0.7183638,
-                0.9262786,
-                0.5293021
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "mg/l"
-            }
-          ],
-          "QuantityInfo": {
-            "Name": "Avg",
-            "Path": "Ji 2008 - Carbamazepine + Efavirenz, treatment (Arm 2) - Carbamazepine - PO - 200 / 400 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine|ArithmeticMean"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
-            "MolWeight": 236.269,
-            "LLOQ": 5E-07
-          },
-          "Values": [
-            2.77881,
-            3.042672,
-            3.987065,
-            5.271698,
-            6.008177,
-            6.177547,
-            5.987696,
-            5.589142,
-            5.133877,
-            4.640831,
-            4.051663,
-            2.741002
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Name": "Time",
-          "Path": "Ji 2008 - Carbamazepine + Efavirenz, treatment (Arm 2) - Carbamazepine - PO - 200 / 400 mg - Plasma - agg. (n=36)|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
-        },
-        "Values": [
-          816.0,
-          817.0,
-          818.0,
-          819.0,
-          820.0,
-          821.0,
-          822.0,
-          824.0,
-          826.0,
-          828.0,
-          832.0,
-          840.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Ji 2008 - Carbamazepine, control (Arm 2) - Carbamazepine-10-11-epoxide - PO - 200 / 400 mg - Plasma - agg. (n=36)",
-      "ExtendedProperties": [
-        {
-          "Name": "DB Version",
-          "Value": "OSP DATABASE"
-        },
-        {
-          "Name": "ID",
-          "Value": 962.0
-        },
-        {
-          "Name": "Study Id",
-          "Value": "Ji 2008"
-        },
-        {
-          "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/18519918/"
-        },
-        {
-          "Name": "Source",
-          "Value": "Fig. 2B"
-        },
-        {
-          "Name": "Grouping",
-          "Value": "Carbamazepine, control (Arm 2)"
-        },
-        {
-          "Name": "Data type",
-          "Value": "aggregated"
-        },
-        {
-          "Name": "N",
-          "Value": 36.0
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Carbamazepine-10-11-epoxide"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma"
-        },
-        {
-          "Name": "Route",
-          "Value": "PO"
-        },
-        {
-          "Name": "Dose",
-          "Value": "200 / 400 mg"
-        },
-        {
-          "Name": "Times of Administration [h]",
-          "Value": "200mg: S0-T24-R3, S60-T12-R6; 400mg: S144-T24-R15"
-        },
-        {
-          "Name": "Formulation",
-          "Value": "tablets of 200mg strength (Novartis Pharmaceuticals Co, East Hanover, New Jersey)"
-        },
-        {
-          "Name": "Food state",
-          "Value": "fasted"
-        },
-        {
-          "Name": "Comment",
-          "Value": "."
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Avg",
-          "RelatedColumns": [
-            {
-              "Name": "Var",
-              "QuantityInfo": {
-                "Name": "Var",
-                "Path": "Ji 2008 - Carbamazepine, control (Arm 2) - Carbamazepine-10-11-epoxide - PO - 200 / 400 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine-10-11-epoxide|ArithmeticStdDev"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
-                "MolWeight": 252.27
-              },
-              "Values": [
-                0.2015811,
-                0.1699606,
-                0.1936759,
-                0.2292491,
-                0.2252965,
-                0.249011889,
-                0.2411067,
-                0.249011889,
-                0.1857708,
-                0.2371542,
-                0.2015811,
-                0.146245
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "mg/l"
-            }
-          ],
-          "QuantityInfo": {
-            "Name": "Avg",
-            "Path": "Ji 2008 - Carbamazepine, control (Arm 2) - Carbamazepine-10-11-epoxide - PO - 200 / 400 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine-10-11-epoxide|ArithmeticMean"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
-            "MolWeight": 252.27,
-            "LLOQ": 5E-07
-          },
-          "Values": [
-            0.7075099,
-            0.6837944,
-            0.7272727,
-            0.8102767,
-            0.8577075,
-            0.9090909,
-            0.9249012,
-            1.0,
-            0.9328063,
-            0.960474253,
-            0.8814229,
-            0.6442688
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Name": "Time",
-          "Path": "Ji 2008 - Carbamazepine, control (Arm 2) - Carbamazepine-10-11-epoxide - PO - 200 / 400 mg - Plasma - agg. (n=36)|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
-        },
-        "Values": [
-          480.0,
-          481.0,
-          482.0,
-          483.0,
-          484.0,
-          485.0,
-          486.0,
-          488.0,
-          490.0,
-          492.0,
-          496.0,
-          504.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Ji 2008 - Carbamazepine + Efavirenz, treatment (Arm 2) - Carbamazepine-10-11-epoxide - PO - 200 / 400 mg - Plasma - agg. (n=36)",
-      "ExtendedProperties": [
-        {
-          "Name": "DB Version",
-          "Value": "OSP DATABASE"
-        },
-        {
-          "Name": "ID",
-          "Value": 963.0
-        },
-        {
-          "Name": "Study Id",
-          "Value": "Ji 2008"
-        },
-        {
-          "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/18519918/"
-        },
-        {
-          "Name": "Source",
-          "Value": "Fig. 2B"
-        },
-        {
-          "Name": "Grouping",
-          "Value": "Carbamazepine + Efavirenz, treatment (Arm 2)"
-        },
-        {
-          "Name": "Data type",
-          "Value": "aggregated"
-        },
-        {
-          "Name": "N",
-          "Value": 36.0
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Carbamazepine-10-11-epoxide"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma"
-        },
-        {
-          "Name": "Route",
-          "Value": "PO"
-        },
-        {
-          "Name": "Dose",
-          "Value": "200 / 400 mg"
-        },
-        {
-          "Name": "Times of Administration [h]",
-          "Value": "200mg: S0-T24-R3, S60-T12-R6; 400mg: S144-T24-R29"
-        },
-        {
-          "Name": "Formulation",
-          "Value": "tablets of 200mg strength (Novartis Pharmaceuticals Co, East Hanover, New Jersey)"
-        },
-        {
-          "Name": "Food state",
-          "Value": "fasted"
-        },
-        {
-          "Name": "Comment",
-          "Value": "."
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Avg",
-          "RelatedColumns": [
-            {
-              "Name": "Var",
-              "QuantityInfo": {
-                "Name": "Var",
-                "Path": "Ji 2008 - Carbamazepine + Efavirenz, treatment (Arm 2) - Carbamazepine-10-11-epoxide - PO - 200 / 400 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine-10-11-epoxide|ArithmeticStdDev"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
-                "MolWeight": 252.27
-              },
-              "Values": [
-                0.1936759,
-                0.1620553,
-                0.1976284,
-                0.2252964,
-                0.2490118,
-                0.272727,
-                0.2885374,
-                0.2648225,
-                0.268775,
-                0.2687747,
-                0.2055337,
-                0.1422925
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "mg/l"
-            }
-          ],
-          "QuantityInfo": {
-            "Name": "Avg",
-            "Path": "Ji 2008 - Carbamazepine + Efavirenz, treatment (Arm 2) - Carbamazepine-10-11-epoxide - PO - 200 / 400 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine-10-11-epoxide|ArithmeticMean"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
-            "MolWeight": 252.27,
-            "LLOQ": 5E-07
-          },
-          "Values": [
-            0.5968379,
-            0.5928854,
-            0.6442688,
-            0.798419,
-            0.9328063,
-            1.011858,
-            1.019763,
-            1.051383,
-            1.01581,
-            0.9802371,
-            0.8695652,
-            0.5612648
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Name": "Time",
-          "Path": "Ji 2008 - Carbamazepine + Efavirenz, treatment (Arm 2) - Carbamazepine-10-11-epoxide - PO - 200 / 400 mg - Plasma - agg. (n=36)|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           816.0,
